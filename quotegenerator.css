@@ -29,7 +29,7 @@ body{
       font-size: large
       
     }
-  #new-quote   {
+  #new-quote ,#tweet-share{
      font-family:Comic Sans MS, Comic      Sans,Times New Roman;
     background-color:black;
     border-radius:5px;

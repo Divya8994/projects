@@ -11,4 +11,8 @@ var quotes = ["The best and most beautiful things in the world cannot be seen or
 function newQuote(){
     var randomNumber = Math.floor(Math.random() * (quotes.length));
     document.getElementById("randomquote").innerHTML=quotes[randomNumber];
-}
+    tweetUrl = "https://twitter.com/intent/tweet?text=" + quotes[randomNumber]; 
+
+   document.getElementById('tweet-share').setAttribute("href", tweetUrl);
+}  
+
